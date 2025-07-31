@@ -1,5 +1,5 @@
 <h1 align="center">
-GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation Enhanced by Domain Rules and Disproof Method
+GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation Enhanced by Domain Rules and Disproof Mechanism
 </h1>
 <p align="center">
 <img src="https://img.shields.io/badge/OS-Ubuntu22.4-blue" />
@@ -205,13 +205,13 @@ if __name__ == "__main__":
 - Available via Hugging Face (not yet publicly released)  
 - or contact via email: `zhaorenhuo@gmail.com`
 
-**Knowledge Privacy Preservation (KPP)**
+**PrivacyQA-K**
 
-> We designed KPP for the knowledge-typed task with private data. We utilize KPP to evaluate the ability of processing the tasks under privacy preservation. First, the models for evaluation must identify and anonymize private data embedded in questions. Subsequently, the models answer 5 knowledge-typed questions inspired by HotpotQA, crafting coherent responses in the form of stories or letters. KPP includes 100 instances, each with 5 questions, totaling 500 knowledge-typed questions. 
+> We designed PrivacyQA-K for the knowledge-typed task with private data. We use PrivacyQA-K to assess task performance under privacy-preserving conditions. First, the models for evaluation must identify and anonymize private data embedded in questions. Subsequently, the models answer 5 knowledge-typed questions inspired by HotpotQA, crafting coherent responses in the form of stories or letters. PrivacyQA-K includes 100 instances, each with 5 questions, totaling 500 knowledge-typed questions.  
 
-**Logic Privacy Preservation (LPP)**
+**PrivacyQA-L**
 
-> We designed LPP for evaluates the ability of processing de-identified text and performing logical reasoning. The models for evaluation identify and anonymize private data embedded in paragraphs and questions. The anonymized questions are answered by the models. The Boolean logical reasoning questions of LPP are derived from BoolQ. Each instance involves True/False questions based on paragraph content. And each question requires logical inference and text comprehension. LPP includes 150 instances with Boolean questions. 
+> We designed PrivacyQA-L for evaluates the ability of processing de-identified text and performing logical reasoning. The models for evaluation identify and anonymize private data embedded in paragraphs and questions. The anonymized questions are answered by the models. The Boolean logical reasoning questions of PrivacyQA-L are derived from BoolQ. Each instance involves True/False questions based on paragraph content. And each question requires logical inference and text comprehension. PrivacyQA-L includes 150 instances with Boolean questions. 
 
 ## Acknowledge
 
