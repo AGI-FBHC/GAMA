@@ -201,7 +201,7 @@ if __name__ == "__main__":
 
 ### Access to Privacy-Preserving Datasets
 
-**KPP and LPP**  
+**PrivacyQA-K and PrivacyQA-L**  
 - Available via Hugging Face (not yet publicly released)  
 - or contact via email: `anonymous@gmail.com`
 
@@ -212,6 +212,12 @@ if __name__ == "__main__":
 **PrivacyQA-L**
 
 > We designed PrivacyQA-L for evaluates the ability of processing de-identified text and performing logical reasoning. The models for evaluation identify and anonymize private data embedded in paragraphs and questions. The anonymized questions are answered by the models. The Boolean logical reasoning questions of PrivacyQA-L are derived from BoolQ. Each instance involves True/False questions based on paragraph content. And each question requires logical inference and text comprehension. PrivacyQA-L includes 150 instances with Boolean questions. 
+
+**Privacy Lens**
+- [Link](https://github.com/SALT-NLP/PrivacyLens)
+- or contact via email: `anonymous@gmail.com`
+
+>It is a dataset released by Stanford University in 2023 to evaluate the behavior of large language models (LLMs) in privacy-related scenarios. It consists of approximately 600 manually crafted questions covering various types such as direct inquiries, indirect reasoning, and social engineering-style prompts. The dataset is designed to assess whether a model refuses to answer, fabricates private information, or excessively discloses sensitive content. It evaluates model performance across multiple dimensions, including refusal behavior, hallucinated private information, and context sensitivity, aiming to measure the safety and alignment of LLMs when handling personally identifiable information. As a key benchmark for assessing privacy protection capabilities and the safety boundaries of models, Privacy Lens has been widely used to compare the privacy-related behaviors of models such as GPT-4, Claude, and PaLM.
 
 ## Acknowledge
 
